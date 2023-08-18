@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"br.com.riverlandschool.controller"},{"l":"br.com.riverlandschool.dao"},{"l":"br.com.riverlandschool.model"},{"l":"br.com.riverlandschool.view"}];updateSearchResults();

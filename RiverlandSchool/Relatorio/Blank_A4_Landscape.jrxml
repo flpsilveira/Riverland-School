@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.1.final using JasperReports Library version 6.20.1-7584acb244139816654f64e2fd57a00d3e31921e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_Landscape" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="12127069-4e4d-4f50-b3c2-aca3a546b550">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="src\br\com\riverlandschool\dao\Boletim.jrdax"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<parameter name="QUERY" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[$P!{QUERY}]]>
+	</queryString>
+	<field name="ID" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="ID"/>
+		<property name="com.jaspersoft.studio.field.label" value="ID"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="RA_Aluno" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="RA_Aluno"/>
+		<property name="com.jaspersoft.studio.field.label" value="RA_Aluno"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="Nome_Aluno" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="Nome_Aluno"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nome_Aluno"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="Nota_Bimestre1" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="Nota_Bimestre1"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nota_Bimestre1"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="Nota_Bimestre2" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="Nota_Bimestre2"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nota_Bimestre2"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="Nota_Bimestre3" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="Nota_Bimestre3"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nota_Bimestre3"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="Nota_Bimestre4" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="Nota_Bimestre4"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nota_Bimestre4"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="Nota_Bim1_Port" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="Nota_Bim1_Port"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nota_Bim1_Port"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="Nota_Bim2_Port" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="Nota_Bim2_Port"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nota_Bim2_Port"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="Nota_Bim3_Port" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="Nota_Bim3_Port"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nota_Bim3_Port"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="Nota_Bim4_Port" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="Nota_Bim4_Port"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nota_Bim4_Port"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="Nota_Bim1_Mat" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="Nota_Bim1_Mat"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nota_Bim1_Mat"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="Nota_Bim2_Mat" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="Nota_Bim2_Mat"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nota_Bim2_Mat"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="Nota_Bim3_Mat" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="Nota_Bim3_Mat"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nota_Bim3_Mat"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="Nota_Bim4_Mat" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="Nota_Bim4_Mat"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nota_Bim4_Mat"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="Nota_Bim1_His" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="Nota_Bim1_His"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nota_Bim1_His"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="Nota_Bim2_His" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="Nota_Bim2_His"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nota_Bim2_His"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="Nota_Bim3_His" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="Nota_Bim3_His"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nota_Bim3_His"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="Nota_Bim4_His" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="Nota_Bim4_His"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nota_Bim4_His"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="Nota_Bim1_Geo" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="Nota_Bim1_Geo"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nota_Bim1_Geo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="Nota_Bim2_Geo" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="Nota_Bim2_Geo"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nota_Bim2_Geo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="Nota_Bim3_Geo" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="Nota_Bim3_Geo"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nota_Bim3_Geo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="Nota_Bim4_Geo" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="Nota_Bim4_Geo"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nota_Bim4_Geo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<field name="SERIE" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.name" value="SERIE"/>
+		<property name="com.jaspersoft.studio.field.label" value="SERIE"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="Notas"/>
+	</field>
+	<variable name="mediaNotas" class="java.lang.Double" calculation="Average">
+		<variableExpression><![CDATA[( ( (Double) $F{Nota_Bimestre1} ).doubleValue() + ( (Double) $F{Nota_Bimestre2} ).doubleValue() + ( (Double) $F{Nota_Bimestre3} ).doubleValue() + ( (Double) $F{Nota_Bimestre4} ).doubleValue() ) / 4]]></variableExpression>
+	</variable>
+	<variable name="mediaPortugues" class="java.lang.Double" calculation="Average">
+		<variableExpression><![CDATA[( ( (Double) $F{Nota_Bim1_Port} ).doubleValue() + ( (Double) $F{Nota_Bim2_Port} ).doubleValue() + ( (Double) $F{Nota_Bim3_Port} ).doubleValue() + ( (Double) $F{Nota_Bim4_Port} ).doubleValue() ) / 4]]></variableExpression>
+	</variable>
+	<variable name="mediaMatematica" class="java.lang.Double" calculation="Average">
+		<variableExpression><![CDATA[( ( (Double) $F{Nota_Bim1_Mat} ).doubleValue() + ( (Double) $F{Nota_Bim2_Mat} ).doubleValue() + ( (Double) $F{Nota_Bim3_Mat} ).doubleValue() + ( (Double) $F{Nota_Bim4_Mat} ).doubleValue() ) / 4]]></variableExpression>
+	</variable>
+	<variable name="mediaHistoria" class="java.lang.Double" calculation="Average">
+		<variableExpression><![CDATA[( ( (Double) $F{Nota_Bim1_His} ).doubleValue() + ( (Double) $F{Nota_Bim2_His} ).doubleValue() + ( (Double) $F{Nota_Bim3_His} ).doubleValue() + ( (Double) $F{Nota_Bim4_His} ).doubleValue() ) / 4]]></variableExpression>
+	</variable>
+	<variable name="mediaGeografia" class="java.lang.Double" calculation="Average">
+		<variableExpression><![CDATA[( ( (Double) $F{Nota_Bim1_Geo} ).doubleValue() + ( (Double) $F{Nota_Bim2_Geo} ).doubleValue() + ( (Double) $F{Nota_Bim3_Geo} ).doubleValue() + ( (Double) $F{Nota_Bim4_Geo} ).doubleValue() ) / 4]]></variableExpression>
+	</variable>
+	<group name="Grupo RA" isStartNewPage="true">
+		<groupExpression><![CDATA[$F{RA_Aluno}]]></groupExpression>
+		<groupHeader>
+			<band height="44">
+				<staticText>
+					<reportElement x="0" y="0" width="50" height="30" uuid="fbebaa35-9abf-43a7-82b2-ceac54d37d0a"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Segoe UI Semilight" size="15" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Aluno:]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="50" y="0" width="170" height="30" uuid="2aaad9de-c8de-4044-99ad-07ea01c601e0"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Segoe UI Semilight" size="14"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{Nome_Aluno}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="240" y="0" width="39" height="30" uuid="e753acea-0319-4bbd-9bb8-8c660907166d"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Segoe UI Semilight" size="15" isBold="true"/>
+					</textElement>
+					<text><![CDATA[RA:]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="280" y="0" width="170" height="30" uuid="86aa7ab5-3cf6-4a1b-a876-bf2885f05874"/>
+					<textElement verticalAlignment="Bottom">
+						<font fontName="Segoe UI Semilight" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{RA_Aluno}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="520" y="0" width="39" height="30" uuid="b9d7d391-28c2-4fd5-9387-68ffb33a07d3"/>
+					<textElement textAlignment="Left" verticalAlignment="Bottom">
+						<font fontName="Segoe UI Semilight" size="15" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Série:]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="-20" y="30" width="842" height="1" uuid="b7cf7ba8-2d4d-41c8-99f2-5a95fad6d8c3"/>
+				</rectangle>
+				<rectangle>
+					<reportElement x="-20" y="0" width="841" height="1" uuid="ba610865-2bea-4d87-a8b4-ea41c1e6c5a8"/>
+				</rectangle>
+				<textField>
+					<reportElement x="564" y="0" width="100" height="30" uuid="b72f4724-8934-49a6-ac2a-26a5217acdcf"/>
+					<textElement verticalAlignment="Bottom">
+						<font fontName="Segoe UI Semilight" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SERIE}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="133" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="270" y="60" width="260" height="40" uuid="b9a0a7b0-2311-41cc-b441-a96dbabb0ed7"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Segoe UI Semibold" size="25"/>
+				</textElement>
+				<text><![CDATA[Boletim Escolar - 2023]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="282" y="10" width="239" height="40" uuid="fffaf2e2-a203-418e-8adb-2e460f93575b"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Segoe UI Semibold" size="25"/>
+				</textElement>
+				<text><![CDATA[RIVERLAND SCHOOL]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="0" width="120" height="133" uuid="f4dfa200-2963-4eb0-829d-ac52c366529b"/>
+				<imageExpression><![CDATA["https://uploaddeimagens.com.br/images/004/513/074/full/logo640px.png?1687219584"]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="149" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="20" width="130" height="30" uuid="04e67869-3b2c-413e-805f-6a8ea0f3a9b7"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Português]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="50" width="130" height="30" uuid="3ed436a2-2660-4e6b-89c6-cea6d8176f38"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Matemática]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="80" width="130" height="30" uuid="63d67d87-f436-4bc1-bd0e-01c3062bc334"/>
+				<box>
+					<pen lineWidth="0.5" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[História]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="130" height="20" uuid="819a3523-b4ab-4419-93c3-a01de213140e"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Disciplinas]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="130" y="0" width="130" height="20" uuid="63670c22-36a3-40e2-815e-0f7e59a36fe5"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[1º Bimestre]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="260" y="0" width="130" height="20" uuid="f9be9830-0ecb-485c-90bb-7567443c5eff"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2º Bimestre]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="390" y="0" width="130" height="20" uuid="653f6508-4288-4986-bf41-74c3e7d89f05"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3º Bimestre]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="520" y="0" width="130" height="20" uuid="83633113-738c-4187-97c6-ca0fc4a658a8"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[4º Bimestre]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="650" y="0" width="130" height="20" uuid="f7e78653-e368-4c3b-8829-b0dd2a8fdf87"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Média]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="130" y="20" width="130" height="30" uuid="3be38161-ba3d-4b58-8e6f-e3e7c8c68bd9"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nota_Bim1_Port} != null ? $F{Nota_Bim1_Port} : 0]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="20" width="130" height="30" uuid="9864788a-12b0-4b34-bb32-3f48b1b93726"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nota_Bim2_Port} != null ? $F{Nota_Bim2_Port} : 0]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="390" y="20" width="130" height="30" uuid="104e4b30-3bfe-4d63-a7d5-0641106a308f"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nota_Bim3_Port} != null ? $F{Nota_Bim3_Port} : 0]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="520" y="20" width="130" height="30" uuid="6cc19c4b-ae58-4749-95bd-3d6843916a5f"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nota_Bim4_Port} != null ? $F{Nota_Bim4_Port} : 0]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="-20" y="143" width="841" height="1" uuid="26d67d90-2158-45b3-a182-b269fd6f971f"/>
+			</rectangle>
+			<textField>
+				<reportElement x="650" y="20" width="130" height="30" uuid="ad3a44de-a6e6-48b6-8c68-dbef90c57a4a"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{mediaPortugues} != null ? $V{mediaPortugues} : 0]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="110" width="130" height="30" uuid="cab4a7e3-15a1-454b-9445-e6147f41a961"/>
+				<box>
+					<pen lineWidth="0.5" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Geografia]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="130" y="50" width="130" height="30" uuid="207c0dc1-6896-4221-9ea9-0285420ea51d"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nota_Bim1_Mat}!= null ? $F{Nota_Bim1_Mat} : 0]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="50" width="130" height="30" uuid="2e3f8041-df0b-4894-90d0-7855c2e1e8b2"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nota_Bim2_Mat}!= null ? $F{Nota_Bim2_Mat} : 0]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="390" y="50" width="130" height="30" uuid="0dcd12d2-69c1-4422-8a8b-7734c4058dc8"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nota_Bim3_Mat}!= null ? $F{Nota_Bim3_Mat} : 0]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="520" y="50" width="130" height="30" uuid="0ba7fcdd-3a77-41dc-aede-311084df4a3d"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nota_Bim4_Mat}!= null ? $F{Nota_Bim4_Mat} : 0]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="130" y="80" width="130" height="30" uuid="eae373ad-0dfd-4ae0-bddf-9037027eeca5"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nota_Bim1_His}!= null ? $F{Nota_Bim1_His} : 0]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="80" width="130" height="30" uuid="8e965eb3-737b-4c3a-b1b0-3bafe1218e83"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nota_Bim2_His}!= null ? $F{Nota_Bim2_His} : 0]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="390" y="80" width="130" height="30" uuid="d2fdb2cc-3b07-4055-8987-4dfffc8357cd"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nota_Bim3_His}!= null ? $F{Nota_Bim3_His} : 0]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="520" y="80" width="130" height="30" uuid="2f7efc9a-ad14-4f46-8066-c6205d54242d"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nota_Bim4_His}!= null ? $F{Nota_Bim4_His} : 0]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="130" y="110" width="130" height="30" uuid="5f717c3f-22a2-4d53-aa02-8abd716bd3dd"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nota_Bim1_Geo}!= null ? $F{Nota_Bim1_Geo} : 0]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="110" width="130" height="30" uuid="23f26c4a-2614-4f5e-819e-45ea0ac678dc"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nota_Bim1_Geo}!= null ? $F{Nota_Bim1_Geo} : 0]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="390" y="110" width="130" height="30" uuid="68b725bf-3cd8-48bb-8662-01bdf6724a04"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nota_Bim1_Geo}!= null ? $F{Nota_Bim1_Geo} : 0]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="520" y="110" width="130" height="30" uuid="dea5391f-8948-47a4-8ab8-4ef56165ed89"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nota_Bim1_Geo}!= null ? $F{Nota_Bim1_Geo} : 0]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="650" y="50" width="130" height="30" uuid="87702e0e-637f-4a4a-84f8-56142b07f0e4"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{mediaMatematica} != null ? $V{mediaMatematica} : 0]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="650" y="80" width="130" height="30" uuid="6853114e-f9bb-4714-8d46-59628ee946cb"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{mediaHistoria} != null ? $V{mediaHistoria} : 0]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="650" y="110" width="130" height="30" uuid="3429247a-afa3-47f8-ae22-81cac73243af"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI Semilight" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{mediaGeografia} != null ? $V{mediaGeografia} : 0]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</band>
+	</summary>
+</jasperReport>

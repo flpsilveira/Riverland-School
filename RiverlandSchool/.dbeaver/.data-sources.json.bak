@@ -1,0 +1,29 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-189b76a5d3f-7af59d50dec94887": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "Riverland School.jar",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Executaveis Projetos\\Riverland School.jar",
+				"url": "jdbc:sqlite:C:\\Executaveis Projetos\\Riverland School.jar",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Desenvolvimento",
+			"color": "255,255,255",
+			"description": "Banco de dados de desenvolvimento",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}

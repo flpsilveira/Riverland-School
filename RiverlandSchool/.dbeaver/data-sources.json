@@ -1,0 +1,29 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-189b76ebc1d-543fa505a99f24e7": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "Riverland.db",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\MACKENZIE\\RiverlandSchool\\RiverlandSchool\\src\\br\\com\\riverlandschool\\dao\\Riverland.db",
+				"url": "jdbc:sqlite:C:\\Users\\MACKENZIE\\RiverlandSchool\\RiverlandSchool\\src\\br\\com\\riverlandschool\\dao\\Riverland.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Desenvolvimento",
+			"color": "255,255,255",
+			"description": "Banco de dados de desenvolvimento",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
